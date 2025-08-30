@@ -1,0 +1,27 @@
+{
+    "scenario_name": "PaloAlto_Dense_5UAVs_50Tasks",
+    "map_file": "city_map.json",
+    "task_file": "tasks.csv",
+    "uav_config_file": "uav_config.json",
+
+  "mission_duration_s": 120,
+  "simulation_time_step_s": 0.9,
+  "strategic_interval_s": 12.15,
+  "lto_prediction_horizon_s": 10,
+
+ "collection_radius_m": 50,
+  "carrier_frequency_hz": 2400000000,
+  "noise_power_watt": 1e-12,
+  "iot_tx_power_watt": 0.1,
+  "a2g_bandwidth_hz": 20000000,
+  "eta_los": 1.0,
+  "eta_nlos": 20.0,
+  "gmp_avg_rate_mbps": 20.0,
+  "gmp_time_limit_s": 20,
+  "role_switching_penalty": 100,
+  "lto_weights": {
+    "tracking": [1.0, 1.0, 0.5],
+    "control": [0.1, 0.1, 0.1],
+    "rate": 1e-7
+  }
+}

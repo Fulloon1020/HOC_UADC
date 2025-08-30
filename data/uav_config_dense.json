@@ -1,0 +1,107 @@
+{
+  "fleet_size": 10,
+  "default_params": {
+    "v_max_mps": 17.0,
+    "h_min_m": 50.0,
+    "h_max_m": 150.0,
+    "hover_altitude_m": 120.0,
+    "energy_max_kj": 2255.4,
+    "power_hover_kw": 0.68,
+    "power_move_coeff": 0.6,
+    "power_transmit_kw": 0.0005,
+    "comm_params": {
+      "noise_power_watt": 4.14e-13,
+      "eta_los_db": 1.0,
+      "eta_nlos_db": 20.0,
+      "P_iot_watt": 0.1,
+      "gain_iot_dBi": 3.0,
+      "bandwidth_a2g_hz": 10000000.0,
+      "gain_uav_dBi": 5.0,
+      "bandwidth_a2a_hz": 20000000.0,
+      "interference_alpha_a2g": 2.8,
+      "interference_alpha_a2a": 2.2
+    }
+  },
+  "initial_state": [
+    {
+      "uav_id": 0,
+      "start_pos": [
+        -122.1605,
+        37.4465,
+        50.0
+      ]
+    },
+    {
+      "uav_id": 1,
+      "start_pos": [
+        -122.1605,
+        37.4425,
+        50.0
+      ]
+    },
+    {
+      "uav_id": 2,
+      "start_pos": [
+        -122.1645,
+        37.4465,
+        50.0
+      ]
+    },
+    {
+      "uav_id": 3,
+      "start_pos": [
+        -122.1645,
+        37.4425,
+        50.0
+      ]
+    },
+    {
+      "uav_id": 4,
+      "start_pos": [
+        -122.1625,
+        37.4445,
+        50.0
+      ]
+    },
+    {
+      "uav_id": 5,
+      "start_pos": [
+        -122.16200320048482,
+        37.44305191443735,
+        50.0
+      ]
+    },
+    {
+      "uav_id": 6,
+      "start_pos": [
+        -122.16086639759386,
+        37.443991746884066,
+        50.0
+      ]
+    },
+    {
+      "uav_id": 7,
+      "start_pos": [
+        -122.16246790907671,
+        37.44604120210152,
+        50.0
+      ]
+    },
+    {
+      "uav_id": 8,
+      "start_pos": [
+        -122.1619185795228,
+        37.444617921608376,
+        50.0
+      ]
+    },
+    {
+      "uav_id": 9,
+      "start_pos": [
+        -122.16425284627003,
+        37.44433737020789,
+        50.0
+      ]
+    }
+  ]
+}
