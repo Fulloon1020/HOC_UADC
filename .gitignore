@@ -1,0 +1,56 @@
+# =============================================================================
+# Python - From the official GitHub template
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Unit test / coverage reports
+# (Good to have in case you add tests later)
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+# (In case you use notebooks for analysis)
+.ipynb_checkpoints
+
+# Environments
+# (Crucial for ignoring your local virtual environment)
+.env
+.venv
+env/
+venv/
+ENV/
+
+# =============================================================================
+# IDE and Editor Settings
+# =============================================================================
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# =============================================================================
+# Project-Specific Generated Files (Your Custom Rules)
+# =============================================================================
+
+# Generated experiment results and output folders
+experiment_results*/
+experiment_results_*
+results/
+
+# Log files
+*.log
+report.log
