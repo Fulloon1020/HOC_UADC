@@ -120,10 +120,10 @@ This experiment validates the contribution of each component within the HOC-UADC
 
 2. **Run the Script**:
 
-
    ```
    python main.py
    ```
+
 
 <img width="2969" height="2068" alt="ablation_study_Dense Scenario_N50_M8" src="https://github.com/user-attachments/assets/13e47552-ae80-4507-9092-ecf6ac49f575" />
 
@@ -147,6 +147,7 @@ This experiment investigates the impact of key parameters, such as the strategic
 
    The results will be saved to a separate CSV file, such as `sensitivity_combined_parameters.csv`.
 
+<img width="1955" height="1677" alt="sensitivity_3d_surface" src="https://github.com/user-attachments/assets/b4ff8129-4cfc-4996-ab4f-d01497e24973" />
 
 
 ## Results and Outputs
@@ -157,10 +158,23 @@ The simulation results are intended to demonstrate the superiority of the HOC-UA
 <img width="3000" height="1800" alt="computation_time_vs_N_iot_Scenario with M8 UAVs" src="https://github.com/user-attachments/assets/16d14473-242e-4837-b1c9-021e76953b4d" />
 <img width="3000" height="1800" alt="eta_succ_vs_N_iot_Scenario with M8 UAVs" src="https://github.com/user-attachments/assets/0cf1970d-4b03-41e3-9b4e-ab68f4951cf1" />
 <img width="3000" height="1800" alt="T_max_vs_N_iot_Scenario with M8 UAVs" src="https://github.com/user-attachments/assets/8c54c5dc-3bf0-492f-84c5-dd3cbe39e233" />
+<img width="3000" height="1800" alt="computation_time_vs_N_iot_Scenario with M10 UAVs" src="https://github.com/user-attachments/assets/9700dd22-2407-44b9-aae0-df5460b67cd9" />
+<img width="3000" height="1800" alt="eta_succ_vs_N_iot_Scenario with M10 UAVs" src="https://github.com/user-attachments/assets/17922969-2329-40c7-b8ca-23bb79a849fa" />
+<img width="3000" height="1800" alt="T_max_vs_N_iot_Scenario with M10 UAVs" src="https://github.com/user-attachments/assets/a58ab099-0ac3-43dd-8d52-c8b3b4681528" />
+<img width="3000" height="1800" alt="computation_time_vs_N_iot_Scenario with M8 UAVs" src="https://github.com/user-attachments/assets/d7e1fa42-b3fa-46ee-859d-9f47d59b4d2c" />
+<img width="3000" height="1800" alt="eta_succ_vs_N_iot_Scenario with M8 UAVs" src="https://github.com/user-attachments/assets/dad3d509-d0a0-4c55-b9d9-2a34c621391d" />
+<img width="3000" height="1800" alt="T_max_vs_N_iot_Scenario with M8 UAVs" src="https://github.com/user-attachments/assets/f14f1bbc-6cb8-4d3c-bf02-1dc7cb312dcc" />
+<img width="3000" height="1800" alt="computation_time_vs_N_iot_Scenario with M10 UAVs" src="https://github.com/user-attachments/assets/d357e57a-1c38-4222-9968-9e1496a8baca" />
+<img width="3000" height="1800" alt="eta_succ_vs_N_iot_Scenario with M10 UAVs" src="https://github.com/user-attachments/assets/10335c6b-9abf-464f-a502-1e1361921932" />
+<img width="3000" height="1800" alt="T_max_vs_N_iot_Scenario with M10 UAVs" src="https://github.com/user-attachments/assets/9841b34b-d47a-4752-8eed-a8f5a65ebb4f" />
+
+
 - **Optimized UAV Trajectories**: For specific scenarios, a `visualization_logs/` directory will be created, containing `trajectory_uav_X.csv` files with detailed 4D state information (x, y, z, t) for each UAV.
 - **Task Schedules**: The `visualization_logs/schedule_log.csv` file provides the raw data needed to generate a **Gantt chart**, clearly illustrating the task assignments and role transitions for each UAV over time.
 - **Visualizations**: The data in `visualization_logs` can be used to render the key qualitative figures from the paper, such as the **3D trajectory and relay topology plots** and the **UAV task schedule Gantt chart**, which provide intuitive insight into the algorithm's intelligent decision-making process.
-<img width="1500" height="1200" alt="2Dmap" src="https://github.com/user-attachments/assets/f724e20a-4663-4ed5-bfb7-c4d20931c5e8" /><img width="1500" height="1500" alt="3Dmap" src="https://github.com/user-attachments/assets/72ca6418-83e7-48d3-a4f4-980eb8739041" /><img width="4766" height="2311" alt="gantt_chart_HOC-UADC_N50_M8" src="https://github.com/user-attachments/assets/60f3d08a-7e87-4dcf-ba4d-9291721ba7fe" />
+<img width="1500" height="1200" alt="2Dmap" src="https://github.com/user-attachments/assets/f724e20a-4663-4ed5-bfb7-c4d20931c5e8" />
+<img width="1500" height="1500" alt="3Dmap" src="https://github.com/user-attachments/assets/72ca6418-83e7-48d3-a4f4-980eb8739041" />
+<img width="4766" height="2311" alt="gantt_chart_HOC-UADC_N50_M8" src="https://github.com/user-attachments/assets/60f3d08a-7e87-4dcf-ba4d-9291721ba7fe" />
 
 
 
