@@ -112,8 +112,6 @@ This experiment reproduces the comparative analysis figures in the paper (e.g., 
 
 ### 2. Ablation Study
 
-
-
 This experiment validates the contribution of each component within the HOC-UADC framework (e.g., Fig. 4).
 
 1. Configure Ablation Modes:
@@ -127,6 +125,7 @@ This experiment validates the contribution of each component within the HOC-UADC
    python main.py
    ```
 
+<img width="2969" height="2068" alt="ablation_study_Dense Scenario_N50_M8" src="https://github.com/user-attachments/assets/13e47552-ae80-4507-9092-ecf6ac49f575" />
 
 
 ### 3. Parameter Sensitivity Analysis
@@ -152,15 +151,17 @@ This experiment investigates the impact of key parameters, such as the strategic
 
 ## Results and Outputs
 
-
-
-!(placeholder_image_2.png)
-
-!(placeholder_image_3.png)
-
 The simulation results are intended to demonstrate the superiority of the HOC-UADC framework in generating efficient, safe, and constraint-compliant mission plans. Key outputs include:
 
 - **Comprehensive Performance Metrics**: The `performance_results.csv` file records the core metrics for each run, including **maximum completion time (T_max)**, **task success rate (η_succ)**, **average energy consumption**, and **computation time**. This data is the foundation for plotting all performance comparison figures in the paper.
+<img width="3000" height="1800" alt="computation_time_vs_N_iot_Scenario with M8 UAVs" src="https://github.com/user-attachments/assets/16d14473-242e-4837-b1c9-021e76953b4d" />
+<img width="3000" height="1800" alt="eta_succ_vs_N_iot_Scenario with M8 UAVs" src="https://github.com/user-attachments/assets/0cf1970d-4b03-41e3-9b4e-ab68f4951cf1" />
+<img width="3000" height="1800" alt="T_max_vs_N_iot_Scenario with M8 UAVs" src="https://github.com/user-attachments/assets/8c54c5dc-3bf0-492f-84c5-dd3cbe39e233" />
 - **Optimized UAV Trajectories**: For specific scenarios, a `visualization_logs/` directory will be created, containing `trajectory_uav_X.csv` files with detailed 4D state information (x, y, z, t) for each UAV.
 - **Task Schedules**: The `visualization_logs/schedule_log.csv` file provides the raw data needed to generate a **Gantt chart**, clearly illustrating the task assignments and role transitions for each UAV over time.
 - **Visualizations**: The data in `visualization_logs` can be used to render the key qualitative figures from the paper, such as the **3D trajectory and relay topology plots** and the **UAV task schedule Gantt chart**, which provide intuitive insight into the algorithm's intelligent decision-making process.
+<img width="1500" height="1200" alt="2Dmap" src="https://github.com/user-attachments/assets/f724e20a-4663-4ed5-bfb7-c4d20931c5e8" /><img width="1500" height="1500" alt="3Dmap" src="https://github.com/user-attachments/assets/72ca6418-83e7-48d3-a4f4-980eb8739041" /><img width="4766" height="2311" alt="gantt_chart_HOC-UADC_N50_M8" src="https://github.com/user-attachments/assets/60f3d08a-7e87-4dcf-ba4d-9291721ba7fe" />
+
+
+
+- 
