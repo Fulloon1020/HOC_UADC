@@ -3,8 +3,8 @@
   "default_params": {
     "v_max_mps": 17.0,
     "h_min_m": 50.0,
-    "h_max_m": 150.0,
-    "hover_altitude_m": 120.0,
+    "h_max_m": 120.0,
+    "hover_altitude_m": 80.0,
     "energy_max_kj": 2255.4,
     "power_hover_kw": 0.68,
     "power_move_coeff": 0.6,
