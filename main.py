@@ -192,7 +192,7 @@ def main():
     # 1.0 = 使用原始截止时间 (默认, 无影响)
     # 0.8 = 所有截止时间收紧20% (更紧急)
     # 1.2 = 所有截止时间放松20% (更宽松)
-    DEADLINE_SCALE_FACTOR = 1.2
+    DEADLINE_SCALE_FACTOR = 1.0
 
     # 定义实验规模
     N_values = [50] # 任务数
@@ -474,4 +474,5 @@ def main():
     # print(sensitivity_df)
 
 if __name__ == "__main__":
+
     main()
