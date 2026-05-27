@@ -1,7 +1,7 @@
-# HOC_UADC
+# HOC_UADC(not the newest version)
 
 
-This repository contains the official implementation for the paper: **"[Your Paper Title Here]"**. The paper is available at **[Journal/Conference Name or ArXiv link here]**.
+This repository contains the official implementation for the paper: **"[UAV Path Planning For Radio Frequency Signal Localization Via CRLB-Based Uncertainty Minimization]"**. The paper is available at https://ieeexplore.ieee.org/document/11463984.
 
 
 
